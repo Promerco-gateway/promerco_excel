@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # =========================
 # 1. Cargar variables de entorno
 # =========================
-load_dotenv(".env2")
+load_dotenv(".env2", override=True)
 
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
